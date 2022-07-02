@@ -1,0 +1,31 @@
+{
+  "name": "ifcviewer",
+  "version": "0.0.1",
+  "description": "ifc viewer and project gallery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lowpolypanda/ifcviewer.git"
+  },
+  "keywords": [
+    "ifc",
+    "bim",
+    "ifcjs"
+  ],
+  "author": "Low Poly Panda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lowpolypanda/ifcviewer/issues"
+  },
+  "homepage": "https://github.com/lowpolypanda/ifcviewer#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.75.7"
+  },
+  "dependencies": {
+    "web-ifc-viewer": "^1.0.206"
+  }
+}
