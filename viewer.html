@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@300;400;700&family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"> 
+    <title>Ifc Viewer</title>
+  </head>
+  <body>
+    <div class="box">
+      <header class="header">
+        <a href="./index.html"><h1>IFC VIEWER</h1></a>
+        <h1 id="title"></h1>
+      </header>
+      <div class="content">
+        <div class="sidebar">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm1,15a1,1,0,0,1-2,0V11a1,1,0,0,1,2,0ZM12,8a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,12,8Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M16 0H8v8H0v8h8v8h8v-8h8V8h-8V0z"/></svg>
+        </div>
+        <div class="viewer" id="viewer-container">
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./JS/viewer.js"></script>
+  </body>
+</html>
