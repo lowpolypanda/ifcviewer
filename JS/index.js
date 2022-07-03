@@ -7,7 +7,7 @@ function createCard(card, i) {
   const updated = document.createElement("p");
   updated.textContent = "Last updated: " + card.updated;
   const img = document.createElement("img");
-  img.src = `../PROJECTS/${i}/thumbnail.jpg`;
+  img.src = `./PROJECTS/${i}/thumbnail.jpg`;
   img.alt = card.title;
   const link = document.createElement("a");
   link.href = `./viewer.html?id=${i}`;
